@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Deps
-        run: npm init && npm install --save firebase
+        run: npm install --save firebase
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
