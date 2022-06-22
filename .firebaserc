@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "test-bb6b0"
+  },
+  "targets": {
+    "test-bb6b0": {
+      "hosting": {
+        "app": [
+          "Test"
+        ]
+      }
+    }
   }
 }
